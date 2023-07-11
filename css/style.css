@@ -166,6 +166,57 @@ h1, h2, h3, h4, h5, h6{
 }
 /*-- instagram-section-end --*/
 
+/*-- happiness-section-start --*/
+.happiness-section{
+    padding: 100px 0;
+    background-color: rgba(229, 84, 115, 0.05);
+    margin-bottom: 128px;
+}
+.happiness-section .happiness{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.happiness-section .happiness .happiness-img{
+    position: relative;
+    display: flex;
+}
+.happiness-section .happiness .happiness-img .happiness-overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #E55473;
+    opacity: .7;
+}
+.happiness-section .happiness .happiness-img .happiness-surcle{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #fff;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.happiness-section .happiness .happiness-img .happiness-surcle i{
+    font-size: 40px;
+    color: #E55473;
+}
+.happiness-section .happiness .happiness-content{
+    text-align: left;
+}
+.happiness-section .happiness .happiness-content h3 span{
+    color: #E55473;
+}
+.happiness-section .happiness .happiness-content button{
+    margin-top: 20px;
+}
+/*-- happiness-section-end --*/
+
 /*-- subscribe-section-start --*/
 .subscribe-section{
     background-image: url(../images/sub.png);
