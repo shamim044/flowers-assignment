@@ -32,6 +32,15 @@ h1, h2, h3, h4, h5, h6{
 .img-fluid{
     width: 100%;
 }
+.common-hadding-title{
+    text-align: center;
+    margin-bottom: 48px;
+}
+.common-hadding-title h3{
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
 /*-- common-css-end --*/
 
 /*-- banner-section-start --*/
@@ -52,3 +61,41 @@ h1, h2, h3, h4, h5, h6{
     margin: 32px 0;
 }
 /*-- banner-section-end --*/
+
+/*-- featured-section-start --*/
+.featured-section{
+    margin-top: 178px;
+}
+.featured-section .featurs{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+.featured-section .featurs .single-featur-1{
+    text-align: center;
+}
+.featured-section .featurs .single-featur{
+    width: 464px;
+    height: 538px;
+    background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    margin-bottom: 32px;
+    padding: 70px 50px 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.featured-section .featurs .single-featur-1 h4{
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 24px;
+}
+.featured-section .featurs .single-featur-2{
+    background-color: rgba(5, 151, 160, 0.15);
+    align-items: center;
+}
+.featured-section .featurs .single-featur-3{
+    background-color: rgba(71, 125, 17, 0.15);
+}
+/*-- featured-section-end --*/
