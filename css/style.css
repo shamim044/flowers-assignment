@@ -149,3 +149,42 @@ h1, h2, h3, h4, h5, h6{
     margin: 24px 0 32px;
 }
 /*-- discuant-section-end --*/
+
+/*-- instagram-section-start --*/
+.instagram-section{
+    margin: 128px 0;
+}
+.instagram-section .instagram {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+/*-- instagram-section-end --*/
+
+/*-- subscribe-section-start --*/
+.subscribe-section{
+    background-image: url(../images/sub.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 120px 0;
+    border-radius: 8px;
+    margin-bottom: 128px;
+}
+.subscribe-section form{
+    text-align: center;
+}
+.subscribe-section input[type=email]{
+    padding: 22px 512px 22px 22px;
+    background: #fff;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    margin-right: 15px;
+}
+input:focus-visible{
+    outline: 0;
+}
+/*-- subscribe-section-end --*/
+
+/*-- footer-section-start --*/
