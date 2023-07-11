@@ -43,6 +43,48 @@ h1, h2, h3, h4, h5, h6{
 }
 /*-- common-css-end --*/
 
+/*-- nav-section-start --*/
+.nav-section{
+    background-color: #E55473;
+    padding: 25px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.nav-section .nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-section .nav-container .nav-logo a{
+    text-decoration: none;
+    font-size: 22px;
+    color: #272727;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.nav-section .nav-container .nav-logo a span{
+    color: #fff;
+}
+.nav-section .nav-container .nav-menu{
+    display: flex;
+}
+.nav-section .nav-container .nav-menu li{
+    list-style: none;
+    margin-left: 40px;
+}
+.nav-section .nav-container .nav-menu a{
+    color: #272727;
+    transition: .3s;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+}
+.nav-section .nav-container .nav-menu a:hover{
+    color: #fff;
+}
+/*-- nav-section-end --*/
+
 /*-- banner-section-start --*/
 .banner-section{
     background-color: rgba(229, 84, 115, 0.10);
@@ -51,7 +93,7 @@ h1, h2, h3, h4, h5, h6{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 50px;
+    padding-top: 130px;
 }
 .banner-section .banner .banner-content h1{
     font-size: 80px;
