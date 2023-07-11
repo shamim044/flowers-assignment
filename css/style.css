@@ -124,3 +124,28 @@ h1, h2, h3, h4, h5, h6{
     color: rgba(39, 39, 39, 0.80);
 }
 /*-- support-section-end --*/
+
+/*-- discuant-section-start --*/
+.discuant-section{
+    padding: 100px 0;
+    background-color: rgba(229, 84, 115, 0.05);
+}
+.discuant-section .discuant{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.discuant-section .discuant .discuant-content{
+    text-align: center;
+}
+.discuant-section .discuant .discuant-content h2 span{
+    color: #E55473;
+}
+.discuant-section .discuant .discuant-content h2{
+    font-size:40px;
+    font-weight: 900;
+}
+.discuant-section .discuant .discuant-content p{
+    margin: 24px 0 32px;
+}
+/*-- discuant-section-end --*/
